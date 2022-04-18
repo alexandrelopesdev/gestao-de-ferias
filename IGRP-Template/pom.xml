@@ -103,7 +103,7 @@
 		<!-- Flyway Migration API -->
 		<flyway.version>7.11.2</flyway.version>
 		<igrp.db.user>postgres</igrp.db.user>
-		<igrp.db.password>softwaredeveloper</igrp.db.password>
+		<igrp.db.password>postgres</igrp.db.password>
 		<igrp.db.dsn>jdbc:postgresql://localhost:5432/db_igrp</igrp.db.dsn>
 		<igrp.migration.location>classpath:nosi/core/db/migration/igrp</igrp.migration.location>
 		
@@ -487,13 +487,13 @@
 
 		
 		<!-- System Dependencies -->
-		<!-- <dependency>
+		 <dependency>
 			<artifactId>IGRP</artifactId>
 			<groupId>nosi</groupId>
 			<version>1.0</version>
 			<scope>system</scope>
     		<systemPath>${pom.basedir}/src/main/webapp/WEB-INF/lib/IGRP.jar</systemPath>
-		</dependency> -->
+		</dependency>
 		
 		
 			
